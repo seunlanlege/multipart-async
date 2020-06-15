@@ -35,7 +35,7 @@ futures-util = { version = "0.3.5", default-features = false, optional = true }
 futures-test = { version = "0.3.5", optional = true }
 
 hyper = { version = "0.13.6", optional = true, default-features = false, features = ["stream"] }
-tokio = { version = "0.2.21", optional = true, default-features = false, features = ["io-util"] }
+tokio = { version = "0.2.13", optional = true, default-features = false, features = ["io-util"] }
 
 # only used in integration testing; optional instead of dev dep so it doesn't require cURL
 # to be installed for all contributors
